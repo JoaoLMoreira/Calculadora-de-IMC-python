@@ -11,14 +11,14 @@ def coletainformacoes():
             retorna_imc(calculo_imc(peso, altura))
             break    
         except ValueError:
-            print('voce deve digitar valores validos')
+            print('Você deve digitar valores numericos')
             
 def mostramenu():
     printa_linha() 
     print('Calculadora de IMC')
     printa_linha() 
-    print('1 - calcular IMC')
-    print('2 - sair')
+    print('1 - Calcular IMC')
+    print('2 - Sair')
     printa_linha() 
     
 
@@ -43,19 +43,17 @@ def iniciaAplicacao():
     
 def retorna_imc(imc):
     if(imc < 18.5):
-        print('voce esta abaixo do peso !') 
+        print('Este indice representa "Abaixo do peso" !') 
     elif(imc >18.5)and(imc <24.9):
-        print('Voce esta com o peso normal !')  
+        print('Este indice representa "Peso normal" !')  
     elif(imc >25)and(imc <29.9):
-        print('Voce esta com  sobrepeso !') 
+        print('Este indice representa "Sobrepeso" !') 
     elif(imc >30)and(imc <34.4):
-        print('Voce esta com obsidade grau I !') 
+        print('Este indice representa "Obesidade grau I" !') 
     elif(imc >35)and(imc <39.9):
-        print('Voce esta com obsidade grau II !')
+        print('Este indice representa "Obesidade grau II" !')
     elif(imc >40):
-        print('Voce esta com obsidade Morbida  !')  
-    else:
-        print('fora do if')    
+        print('Este indice representa "Obesidade morbida" !')   
     printa_linha() 
 
 def calculo_imc(peso, altura):
