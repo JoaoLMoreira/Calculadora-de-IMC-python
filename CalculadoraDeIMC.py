@@ -1,5 +1,5 @@
-
-
+#programa basico de IMC 
+#Feito por João Lucas Oliveira Moreira
 def printa_linha():
     print('#--------------------------------------------#')
  
