@@ -1,2 +1,3 @@
 # Calculadora-de-IMC-python
-calculadora simples de IMC usando linguagem python
+Calculadora simples de IMC usando linguagem python
+(Projeto usado para aprender a mexer com o GITHUB)
